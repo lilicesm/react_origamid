@@ -7,9 +7,9 @@ const Contato = () => {
   return (
     <section className={styles.contato + " animaLeft"}>
       <Head title="Alice | Contato" description="Entre em contato!" />
-      <img src={foto} alt="Máquina de escrever" />
+      <img className={styles.img} src={foto} alt="Máquina de escrever" />
       <div>
-        <h1>Entre em contato.</h1>
+        <h1 className={styles.h1}>Entre em contato.</h1>
         <ul className={styles.dados}>
           <li>alice@alice.com</li>
           <li>99999-9999</li>

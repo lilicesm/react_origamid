@@ -4,6 +4,10 @@
   gap: 2rem;
 }
 
+.h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .dados {
   padding: 0;
   list-style: none;
@@ -20,4 +24,10 @@
   height: 2px;
   background: #ddd;
   margin-right: 10px;
+}
+
+.img {
+  max-width: 50%;
+  margin-left: auto;
+  display: block;
 }

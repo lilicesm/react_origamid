@@ -28,7 +28,7 @@ const Produto = () => {
 
   const numFotos = produto && produto.fotos ? produto.fotos.length : 0;
 
-  if(carregando) return <div>Carregando...</div>;
+  if(carregando) return <div className="carregando"></div>;
   if(erro) return <p>{erro}</p>;
   if(!produto) return null;
   return (

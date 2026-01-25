@@ -35,10 +35,12 @@ const Produto = () => {
         title={`Alice | ${produto.nome}`} 
         description={`Esse é o produto ${produto.descricao}`}
       />
-      {produto.fotos.map((foto) => (
+      <div className={styles.fotos}>
+        {produto.fotos.map((foto) => (
         <img key={foto.src} src={foto.src} alt={foto.titulo} />
-      ))}
-      <div>
+        ))}
+      </div>
+      <div className={styles.info}>
         <h1>{produto.nome}</h1>
         <span className={styles.preco}>R${produto.preco}</span>
         <p className={styles.descricao}>{produto.descricao}</p>

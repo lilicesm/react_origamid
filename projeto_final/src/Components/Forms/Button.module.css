@@ -1,0 +1,24 @@
+.button {
+  font-size: 1rem;
+  font-family: var(--type-first);
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.4rem;
+  padding: .8rem 1.2rem;
+  min-width: 8rem;
+  box-sizing: border-box;
+  background: rgb(170, 215, 255);
+  color: rgb(34, 109, 174);
+  transition: 0.1s;
+}
+.button:hover,
+.button:focus {
+  outline: none;
+  background: rgb(150, 195, 235);
+}
+.button:disabled {
+  /* faz o mouse ficar carregandinho */
+  opacity: 0.5;
+  cursor: wait;
+}

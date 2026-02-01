@@ -13,15 +13,17 @@ const Header = () => {
         <Dog />
       </Link>
       {data ? (
-        <Link className={style.login} to="/conta">
-        {data.nome}
-        </Link>
+        <>
+          <Link className={style.login} to="/conta">
+            {data.nome}
+          </Link>
+          <button onClick={userLogout}>Sair</button>
+        </>
       ) : (
         <Link className={style.login} to="/login">
         Login / Cadastro
         </Link>
       )}
-      <button onClick={userLogout}>Sair</button>
     </nav>
   </header>;
 };

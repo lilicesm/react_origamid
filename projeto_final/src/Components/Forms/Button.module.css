@@ -8,8 +8,8 @@
   padding: .8rem 1.2rem;
   min-width: 8rem;
   box-sizing: border-box;
-  background: rgb(170, 215, 255);
-  color: rgb(34, 109, 174);
+  background: #aad7ff;
+  color: #226dae;
   transition: 0.1s;
 }
 .button:hover,
